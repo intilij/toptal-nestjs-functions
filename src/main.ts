@@ -9,16 +9,18 @@ async function bootstrap() {
 
   const adminConfig: ServiceAccount = {
     "projectId": "nestdemo-1194f",
-    "privateKey": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDH2v5jZmoPuf02\nfnDPAFMdQLIjlkAu6D59BMuP5+CrmnQ8d7qiMdQOjXFOz+HWKI3m4kt3TSNHQPAu\noIeWfEZySKnXm1BskaAghmD7bM86CQVU1GJZW9XFyINDvVRnqYwY6lfBgyIYs8sQ\nqqnS2kcrp0lH7grY1cdp7YZIq7hiYYQjiAY/zN4vA9EQ7NWB+Fug5kLIWGDroRmz\nd2OAOTht1b6utIBSZsCE0MPeQLvb6fS6UGkfBs7OTIZDaEuLdPRT/IIV5Fn+5g65\noTocTDGWat1IH+5uU+M0f+K2kQVuWC1p3bs9bJTPXIVUttI7U1vd4xcUVDoFB4//\ndeN+H4ztAgMBAAECggEABIpsNzPvevX908whogJe4Q5EPdy/DpHGQa7nNRjOmPeE\nZo9N1TuOltoN1f2RIv1+490GW+qLv6WxD04kZn3iV9xgx35G4ICag8Kp12yMdMQZ\ns+izZ1ZX0AuTN+nITiajATnpzoK9NpR3K6TFAP5mmY5OcuzsoCqTQkvcPjBwmwOT\n5qadk0cv0rCTnTbqu0ok+QtgLRbxEwb+PnkCm2InX0uHprJAqp862iC7Wrrs0fw9\no7rHTPDwZB8MGcU52KcBo4tdFlk4Qy8+tukK/EHeaT33KOimLfQ5MDvQjFfSRU4e\ntMBawhixyHxjS1UMNwO0l7THSJK+92lfqZDFwB5qfQKBgQDkFDLmgc04k4pL+Zb3\nGdsrNB6biWw6LQcVSkOPwqYvFhmzkUnbQaa/srt51jZc0R+X9inni3BiNNFao4N9\nwnwUTAe4YQvWy5c0ec4+XitFo1AdeWdq/nzHBWo4IhZ3G2mpTTIuDqZtG0gg2EYd\njRxhXmPL/4EEyCZDNQAIk3CPuwKBgQDgUkuhDMhE1Vh1I0dvpl+CDtj65Pvww79z\nZWBXtpED75A2DtG9KCZj9hZo5h9sd8gxGgrSFjYWdBj2L72rl6eA3ElEgxsdhZL0\nAwDn617fYT7I8PeYevJACcaeAI685QC9Csd88al2wlH6+INaEGYneOZzmIQzUcv3\n3oBJ1CHndwKBgQCtXEUMPGFWvZ6C/SWokLiscCNLqfrfhVY68oXEAfn7FFtYx/hR\ndedfEmW5x/7uMe5HvU5AtxYnL2pp8JuDvY4+h0Pe+7TaAUnfEy6W7VEKz4WXwa2/\n/8usIwuHuzFEO0vm6cxYgb4ydGgwvvMchyOpRuuoJX9VuSSMNP7fheIq/QKBgQDC\ndfUEFx2htkUpvryVyGexSofE8C6L6FWWhsJ/J1ANVmbwxeYCkcS+ET4aD6wcDrao\nAkhxGTooOtrMyFQnZZ+asNx/HRyrefkLuXLWmg8znIyeC27Ia4SICTF6FUen7um1\n95s58BEVV51T8I2FzQORolg8y3GHP5iPNv6FgfUmPwKBgQC7yN6qkuSjktbFhL8c\nwkQPONfzmExsMw9ZZRNKDLME12EgDrvV70paWw6dPBMk/dsXgFz/5ONhgWD65qtR\nCk/uHxbouFxjUAiEoc1QcmLsj3m2al07E5Qq5h0Dr1RfYvEUAGWIy1MdVcee40Kp\n4VUiwOQTLo9uwpWUygZIR02Yag==\n-----END PRIVATE KEY-----\n",
+    "privateKey": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDpnfdkJoOth0qu\nZWAw9Aau7bR9teqJRScsS4AbK1nTUbF21J4F2x1uYg0Ypne61HUmK9/2gM4S9Jav\n8Tyziht7B+cAJGmQLWUh7FTkS/ir/iRbe2C98HuSCQgAebgqEMh+GdrRUg9cAg/H\nkOJte4upHPHkmOzkoYZq+abzWVIf4YCcZ22Nw/MFYkpBARKol0uhzDX020bGpKQM\nS2n8f98TSzVphfRaMLyZbYkDRPGwfSO+oI8V/bqH0EYXPnFbEvjyW0eEpVAmE76A\np1pcwS2LE9OLwCmopFH0IYJj5yuS6XabT0NFkXkMWNTQduEsElLvcnaJdAW4q/c/\nAu9pmH8TAgMBAAECggEAFo5EuovonswdojG+uqGoNSK73Uwl9VPF8N+0e+sQyyrS\nDzHltMiiuNIJIN4oJToqIKHDB/iiICMzAV3LViv5dBGGDikPc11oRedpjHlOH/am\n6Zl2wVM2VLOmhohtOmW21eYGwiF09i83+TUiurgsLdg4ZEsXl3BSm08elweCusaw\n/Bl6CO00Tmb/PinOac3mH6Xsi3bQvyp2kYf1Z99vEyJSDlvkdvjyaEhsrBcQOB7n\niJDtX0ZY+N3EN1w/fbt6NYssQ7Q/prrdhZ8sfaOnNhbR5x31bJFNIjLA/MXL7XSw\n+M2CXDOoa0LZb2VHHmhVaR3mxVNOavkxnk+83KHL0QKBgQD0zAfEsvxYwLDZwNjO\n8UQIImjDlTCnsf3WUFPzS+lvBR5Wztd0HuHbN07luETMsB89dDu2J7PRTUNG67uI\nuSik9ci5iys5FrusLOiUhBGX1sYEIg+mIpjMTh6wO6l9do/NmgksxNUSja4QxxC/\n5yRsi1wbjVdR+7KRL2kAdQrZlwKBgQD0TvSFsEwsSbSodplkqhdO7MzfJhCAYdQH\np1giwUl3Dkv9cBcCnbV1JlJq26OtmncP4uaW7ZaHJH7n80Gj64JWiNstAKAQwetk\nXyy3UEG7Z7VNICB6jZbe0j5wn/Kgh/FPhFItm5lfC7dHi+9j4BUWJzwEmTbZID2e\nZeY4s+hd5QKBgF2a9w1784pshDN/zmezUfRaU/0Vuzkkko+0v6U0zdop9uPyy+gX\nNv4ANCcbQxOR9SAmpf6NR/EsviEMWvV499W8NjjcwnZd/v1jXrwLlD6fXbCO5bT9\nXbgh1xJEfhb/kxVnZUK9MUya6Ih51inLVN48m8fdUBqFSE7D9j66gp+ZAoGBAKVK\nVf2tTZwZMfVYaGfG/IYViHbhlgCGL6IOAn9hLocyUQ9jKu5GLWLZTqGlgJQQEcXZ\nyhELJfDBLGtaFWsGB+TsKv3DkohD6zK5gdN0pURZ4jwQJGlGKnEO5dflH46k6wrV\nh5P71kSL9LCfaJO2JA4c9WpXDtjQC2CDqMNsVSZRAoGAcuSju7ovZwzHyVvGA8s5\nv1rei9ZamICKFgZH2Xz4s2C/esgymredHykmmWJNlBOuoPk6w4dq5bSzZrj6bdLd\nDdzXU1EfG9XMj1X158U7M8o0iMuhjykB261nhXd+Ps3Q5AtnGsxvKoeaeUN+F1wj\nL/SvkuIVJgXvRbiz9wYnpXc=\n-----END PRIVATE KEY-----\n",
     "clientEmail": "firebase-adminsdk-ydolc@nestdemo-1194f.iam.gserviceaccount.com"
   };
-
-  const bob = "xxx";
 
   // Initialize the firebase admin app
   admin.initializeApp({
     credential: admin.credential.cert(adminConfig),
     databaseURL: "https://nestdemo-1194f-default-rtdb.firebaseio.com/",
+  });
+
+  app.enableCors({
+    origin: true
   });
 
   await app.listen(3000);

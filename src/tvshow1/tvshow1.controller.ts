@@ -14,7 +14,7 @@ export class Tvshow1Controller {
 
   @Get()
   findAll() {
-    console.log("This is Tvshow1Controller.");
+    console.log("This is Functions Tvshow1Controller.");
     return this.tvshow1Service.findAll();
   }
   /*

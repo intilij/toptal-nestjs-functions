@@ -10,33 +10,14 @@ export class Tvshow1Service {
   }
 
   findAll() {
+    /*
     // Firebase Realtime Database example:
-    // return `This action returns all tvshow1...Hey, Joe!...`;
-    //const dbRef = admin.database().ref("toplevel1");
-    //return dbRef.get()
+    const dbRef = admin.database().ref("toplevel1");
+    return dbRef.get()
+     */
 
     // Cloud Firestore example.
-    const bob = "bob";
     const dbFirestore = admin.firestore();
-
-    /*
-    return dbFirestore.collection('users').doc('5oRVOnJx13MXWDTQ8JrW').get()
-        .then(doc => {
-          if(!doc.exists) {
-            console.log("doc users/5oRVOnJx13MXWDTQ8JrW does not exist!");
-            return "document does not exist";
-          } else {
-            console.log("doc users/5oRVOnJx13MXWDTQ8JrW exists!  Content is:");
-            console.log(doc.data());
-
-            return doc.data();
-          }
-    })
-        .catch(err => {
-          console.log("Error occurred attempting to get from Firestore:" + err);
-          return "No data found.";
-    })
-     */
 
     return dbFirestore.collection('users').get()
         .then(querySnapshot => {
